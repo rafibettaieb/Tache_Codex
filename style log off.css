@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(codex.png);
+    background-size: cover;
+}
+.wrap{
+    width: 420px;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 50px;
+    border: 10px solid  rgba(0,0,0,.2);
+}
+.wrap h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.wrap .button {
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    border: 5px solid rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
