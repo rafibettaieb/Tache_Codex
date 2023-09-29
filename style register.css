@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(codex.png);
+    background-size: cover;
+}
+.wrap{
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 50px;
+    border: 10px solid  rgba(0,0,0,.2);
+}
+.wrap h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+.wrap .inputBox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.inputBox input{
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: 5px solid rgba(0, 0, 0, .2);
+    border-radius: 40px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+.wrap .check{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+.wrap .button {
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    border: 5px solid rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
